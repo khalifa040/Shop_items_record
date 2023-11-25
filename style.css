@@ -1,0 +1,103 @@
+body{background: #fff;
+     padding:0;
+     margin: 0;}
+a{text-decoration: none;}
+.logo{width: 50px;
+       height: 30px;
+       margin: 3px;}
+       
+.icon{ 
+     padding: 10px;
+     position: absolute;
+     right:5px;
+     top: 50px;
+    border: 1px solid #d3f1f0;
+    border-radius: 5px;
+}
+ .bar{width: 20px;
+      height: 20px;}
+.search, #search{border:3px solid red;
+        // top right bottom left
+        padding: 100px;
+        padding: 100px 40px 100px 40px;
+        background: linear-gradient(to right, #f2f2f2, #fff);
+        }
+.search div{display: flex;
+             // vertically
+         //  justify-items: center;
+           justify-content:center;
+           }
+.searchbox, .searchbtn{
+outline: none;
+padding: 10px;
+border-radius:5px;
+}
+.nv{width:100%; 
+    display:none;
+    padding: 10px;
+}
+.nvbtn{
+    outline: none;
+    display: block;    
+    padding: 7px;
+    margin: 8px 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;}
+ hr{opacity: 0.2;}
+.record_title{margin:10px;}
+.record{   margin: auto;
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #f2f2f2;
+            box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+            border-radius:5px;}
+.div_center{   
+          display: block;
+          margin: auto;       
+          // box-shadow: 0 0 0 .2rem rgba(248,249,250,.5);
+          }
+.w-90{width: 90%;}
+.flex{display: flex;
+   /*  display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox; */
+     }
+.r_input{padding:10px;
+      width:50px;
+      margin:5px;
+      border-radius: 5px;
+      outline: none;}
+.btn_yellow{background: yellow;}
+.btn_green{background: green;
+           color: #fff;
+           }
+.btn_red{background: red;}
+.del{margin:5px;}
+.alert{padding:20px;
+       text-align: center;
+       background: #f2f2f2;
+       boder-radius: 5px;
+       color: red;}
+button{
+padding: 10px;
+border-radius: 5px;
+outline: none;
+backgroud: transparent;
+}
+.i_in{
+outline: none;
+    display: block;    
+padding: 7px;
+margin: 8px 0;
+border: 1px solid #f2f2f2;
+width:90%;
+cursor: pointer;}
+
+.flex-space-between{display: flex;
+                     justify-content: space-between;
+                 /*   -webkit-box-pack: justify;
+                     -webkit-justify-content: space-between;
+                     -ms-flex-pack: justify; */
+                     }
+.red{color: red;}
